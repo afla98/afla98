@@ -1,0 +1,57 @@
+/*HEADER*/
+header{
+	width: 100%;
+	float: left;
+	background: #e2e2e2; /* Old browsers */
+    background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+    
+    box-shadow: 0px 5px 7px #000; 
+
+}
+#subheader{
+	width:960px;
+	margin: auto;
+}
+#logotipo{
+	width:300px;
+	float: left;
+	padding: 10px 0px;
+
+}
+#logotipo p a{
+	color:#000;
+	font-family:sourcesans-light;
+	font-size: 50px; 
+}
+#logotipo p a:hover{text-decoration: none;}
+
+
+header  #subheader nav{
+	float:left;
+	width:660;
+	padding: 30px 0px;
+	text-align: right;
+	
+}
+
+
+header #subheader nav ul li{
+display: inline;
+font-family: sourcesans;
+	
+}
+header #subheader nav ul li a{
+ color: #000;
+ font-size:18px;
+ padding: 10px;
+ border-radius:2px;
+}
+header #subheader nav ul li a:hover{
+	background:#1798af;
+	color:#fff;
+	text-decoration: none;
+}
+
